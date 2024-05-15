@@ -1,0 +1,162 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+
+.menugenerale {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    background-color: #105483;
+    padding: 35px 0px 28px 0px ;
+    align-items: center;
+    }
+    
+    .logomenu {
+        grid-area: 1 / 2 / 2 / 4;
+    }
+
+    .listamenu {
+        grid-area: 1 / 7 / 2 / 10;
+    }
+
+    .listamenu ul {
+        padding-left: 0px;
+        display: flex;
+        list-style: none;
+        padding: 10px;
+    }
+
+    .listamenu ul li a {
+        list-style: none;
+        font-family: inter;
+        font-size: 20px;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 700;
+        padding: 70px;
+        text-align: right;
+
+    }
+
+    .listamenu:hover ul:hover li:hover a:hover {
+        text-decoration: underline;
+    }
+
+
+    /* style titoli */
+    .titolo {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    }
+
+    .titoli2 {
+    grid-area: 1 / 4 / 2 / 8;
+    color: #b7410e;
+    font-family: "Playfair Display";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    }
+
+    .immagineiniziale {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    }
+
+    .immagineprinc{
+    grid-area: 1 / 2 / 2 / 10;
+    }
+
+    .immagineprinc img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .testoimmagine {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 0px;
+    }
+
+    .testointernoimg {
+        grid-area: 1 / 3 / 2 / 9;
+        }
+
+    .linkrosso {
+    font-family: "inter";
+    font-size: 20px;
+    color: #b7410e;
+    text-decoration: none;
+    }
+
+    .linkrosso:hover {
+    text-decoration: underline;
+    }
+
+    .testointernoimg p {
+        font-family: "inter";
+        font-size: 24px;
+    }
+
+    .galleria-immagini {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 50px;
+        grid-row-gap: 0px;
+        width: fit-content;
+        text-align: center;
+        padding: 88px 0px 32px 0px;
+        
+    }
+
+    .galleria-immagini img {
+        width: 100%;;
+    }
+    
+    .imgsx1 {
+        grid-area: 1 / 2 / 2 / 6;
+
+    }
+    .imgdx1 {
+        grid-area: 1 / 6 / 2 / 10;
+
+    }
+    .footer-general {
+    background-color: #105483;
+    padding: 60px 0px 50px 0px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    align-items: center;
+    margin-top: 80px;
+    }
+
+    .imglogofooter1
+    { grid-area: 1 / 2 / 2 / 4; }
+
+    .imgapplogo{
+    grid-area: 1 / 7 / 2 / 10;
+    text-align: right;
+    padding: 0px 0px 10px 0px;
+    }
+
+    .imgappstore
+    { grid-area: 2 / 7 / 3 / 10;
+    text-align: right;}
+
+
